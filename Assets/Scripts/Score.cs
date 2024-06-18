@@ -1,0 +1,20 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Score : MonoBehaviour
+{
+    public float score;
+    [SerializeField] public static float getScore;
+    
+    void Start()
+    {
+        getScore = score; 
+    }
+
+
+    void Update()
+    {
+        
+    }
+}
